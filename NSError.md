@@ -71,34 +71,5 @@ Method: localizedRecoveryOptions (if returns nil, implies a single “OK button)
 
 `user info`中包含的不同信息，提供给用户看时应该是这样的：
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![error_description](https://github.com/wangzz/Blog/blob/master/image/NSError/error_description.gif?raw=true)
 

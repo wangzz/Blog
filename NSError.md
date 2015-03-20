@@ -76,6 +76,6 @@ Method: localizedRecoveryOptions (if returns nil, implies a single “OK button)
 
 #### 参考文档
 
-* (Error Handling Programming Guide)[https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ErrorHandlingCocoa/ErrorHandling/ErrorHandling.html#//apple_ref/doc/uid/TP40001806-CH201-SW1]
+* [Error Handling Programming Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ErrorHandlingCocoa/ErrorHandling/ErrorHandling.html#//apple_ref/doc/uid/TP40001806-CH201-SW1)
 
 

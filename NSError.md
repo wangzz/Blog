@@ -47,6 +47,58 @@ if ( [[underError domain] isEqualToString:NSPOSIXErrorDomain] ) {
 
 #### user info
 
+`user info`是一个包含了和错误相关的信息的NSDictionary，其特定的key中常用的有以下几个：
+
+* Error description
+
+User info key: `NSLocalizedDescriptionKey`
+Method: localizedDescription (never returns nil)
+
+* Failure reason
+ 
+User info key: `NSLocalizedFailureReasonErrorKey`
+Method: localizedFailureReason (can return nil)
+
+* Recovery suggestion
+ 
+User info key: `NSLocalizedRecoverySuggestionErrorKey`
+Method: localizedRecoverySuggestion (can return nil)
+
+* Recovery options
+
+User info key: `NSLocalizedRecoveryOptionsErrorKey`
+Method: localizedRecoveryOptions (if returns nil, implies a single “OK button)
+
+`user info`中包含的不同信息，提供给用户看时应该是这样的：
 
 
-学习笔记
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

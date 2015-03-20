@@ -73,6 +73,42 @@ Method: localizedRecoveryOptions (if returns nil, implies a single “OK button)
 
 ![error_description](https://github.com/wangzz/Blog/blob/master/image/NSError/error_description.gif?raw=true)
 
+来自官网的创建`NSError`的例子：
+
+```objective-c
+- (NSString *)fooFromPath:(NSString *)path error:(NSError **)anError {
+ 
+    const char *fileRep = [path fileSystemRepresentation];
+    int fd = open(fileRep, O_RDWR|O_NONBLOCK, 0);
+ 
+    if (fd == -1) {
+ 
+        if (anError != NULL) {
+            NSString *description;
+            NSDictionary *uDict;
+            int errCode;
+ 
+            if (errno == ENOENT) {
+                description = NSLocalizedString(@"No file or directory at requested location", @"");
+                errCode = MyCustomNoFileError;
+            } else if (errno == EIO) {
+                // Continue for each possible POSIX error...
+            }
+ 
+            // Create the underlying error.
+            NSError *underlyingError = [[NSError alloc] initWithDomain:NSPOSIXErrorDomain
+                code:errno userInfo:nil];
+            // Create and return the custom domain error.
+            NSDictionary *errorDictionary = @{ NSLocalizedDescriptionKey : description,
+                NSUnderlyingErrorKey : underlyingError, NSFilePathErrorKey : path };
+ 
+            *anError = [[NSError alloc] initWithDomain:MyCustomErrorDomain
+                    code:errCode userInfo:errorDictionary];
+        }
+        return nil;
+    }
+    // ...
+```
 
 #### 参考文档
 

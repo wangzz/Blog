@@ -1,12 +1,12 @@
 ## Autolayout之VFL学习笔记
 
-###### 简介
+#### 简介
 
 VFL(Visual Format Language)是Autolayout界面布局时使用的一种可视化标记语言。从名称中可以看出，其最大的特点是可视化，用户很容易看懂它所表示的含义。
 
 本文重在介绍VFL语法。
 
-###### 使用方式
+#### 使用方式
 
 NSLayoutConstraint类提供了一个VFL相关类方法：
 
@@ -18,7 +18,7 @@ views:(NSDictionary *)views;
 
 该方法返回包含由VFL确定的NSLayoutConstraint对象的数组。
 
-###### 语法
+#### 语法
 
 * 标准间隔
 
@@ -102,6 +102,6 @@ V:[topField]-10-[bottomField]
 ![Multiple Predicates](https://github.com/wangzz/Blog/blob/master/image/Autolayout%E4%B9%8BVFL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/multiplePredicates.png)
 
 
-###### 参考链接
+#### 参考链接
 
 * [Auto Layout Guide](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage/VisualFormatLanguage.html#//apple_ref/doc/uid/TP40010853-CH3-SW1)

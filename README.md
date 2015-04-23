@@ -6,13 +6,26 @@
 
 * [Autolayout之VFL学习笔记](https://github.com/wangzz/Blog/blob/master/iOS/Autolayout%E4%B9%8BVFL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 
+* [iOS7多任务学习笔记](https://github.com/wangzz/Blog/blob/master/iOS/iOS7多任务学习笔记.md)
+
+* [frame相关属性学习笔记](https://github.com/wangzz/Blog/blob/master/iOS/frame%E7%9B%B8%E5%85%B3%E5%B1%9E%E6%80%A7%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+
+* [Mac和iOS中的坐标系](https://github.com/wangzz/Blog/blob/master/iOS/Mac%E5%92%8CiOS%E4%B8%AD%E7%9A%84%E5%9D%90%E6%A0%87%E7%B3%BB.md)
+
+* [hit-test流程](https://github.com/wangzz/Blog/blob/master/iOS/hit-test%E6%B5%81%E7%A8%8B.md)
+
+* [Xcode相关问题](https://github.com/wangzz/Blog/blob/master/iOS/Xcode%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98.md)
+
+
 #### 操作系统
 
 * [操作系统基本概念](https://github.com/wangzz/Blog/blob/master/OS/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)
 
-#### 其它语言
+#### 其它
 
 * [编程语言的跨平台性](https://github.com/wangzz/Blog/blob/master/Other/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%9A%84%E8%B7%A8%E5%B9%B3%E5%8F%B0%E6%80%A7.md)
+
+* [字符编码学习笔记](https://github.com/wangzz/Blog/blob/master/Other/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 
 #### 读书笔记
 

@@ -66,7 +66,7 @@ frame.size和bounds.size不一定能完全一致，比如在view旋转的时候�
 更改frame的时候会改变center，同样更改center的时候也会改变frame的origin。
 
 
-#### 二、layer属性
+#### 二、CALayer属性
 
 ###### 1、 frame
  

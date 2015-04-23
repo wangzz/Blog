@@ -82,3 +82,34 @@ scheme可以有很多个，但是只能有一个处于活跃状态；
 scheme可以属于project，也可以属于workspace。
 
 
+#### ssh远程编译访问证书报`User interaction is not allowed.`错误
+
+报错解决方案：
+
+在编译前解锁keychain：
+
+```
+security show-keychain-info ~/Library/Keychains/login.keychain
+if [[ $? != 0 ]]; then
+    security unlock-keychain ~/Library/Keychains/login.keychain
+    if [[ $? != 0 ]]; then
+        echo
+        echo "!!! unlock keychain failed"
+        exit 4
+    fi
+fi
+```
+
+通常这就能解决问题了，如果还不行，就将keychain对应证书的访问权限改成下图所示：
+![keychain](http://i.stack.imgur.com/WwYiq.png)
+参考链接：http://stackoverflow.com/questions/20205162/user-interaction-is-not-allowed-trying-to-sign-an-osx-app-using-codesign
+
+
+#### Apple关于`deprecated`方法的描述：
+>
+Deprecation does not mean the immediate deletion of an interface from a framework or library. It is simply a way to flag interfaces for which better alternatives exist. You can use deprecated APIs in your code. However, Apple recommends that you migrate to newer interfaces as soon as possible because deprecated APIs may be deleted from a future version of the OS. Check the header files or documentation of the deprecated API for information about any recommended replacement interfaces.
+>
+
+`deprecated`并不意味着该方法会立马被删除，而是它有了更好的替代方法。开发者需要尽快将标为`deprecated`的方法替换掉，因为Apple可能在将来的某个系统版本中会将其删除。
+
+

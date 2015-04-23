@@ -1,6 +1,6 @@
 ## hit-test流程
 
-###### 流程
+* 流程
 
 hit-test使用的是逆序递归遍历法：
 >
@@ -18,14 +18,14 @@ hit-test使用的是逆序递归遍历法：
 
 直到找到一个包含点击区域的最上层view。
 
-###### 关于多次调用hit-test
+* 关于多次调用hit-test
 
 ** iOS6 及之前系统会重复调用三次hit-test流程；
 ** iOS7 及之后系统会重复调用两次hit-test流程。
 
 调用那么多次的原因不明。
 
-###### 关于UITabbarController
+* 关于UITabbarController
 
 点击包含UITabBar、UIToolBar等控件上方40像素区域内时，多次hit-test的最后一次中point值会发生随机变化，point的Y值会被增大若干不等的像素。
 

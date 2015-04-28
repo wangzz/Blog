@@ -16,6 +16,7 @@
 
 * [Xcode相关问题](https://github.com/wangzz/Blog/blob/master/iOS/Xcode%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98.md)
 
+* [iOS图片格式选择](https://github.com/wangzz/Blog/blob/master/iOS/iOS%E5%9B%BE%E7%89%87%E6%A0%BC%E5%BC%8F%E9%80%89%E6%8B%A9.md)
 
 #### 操作系统
 

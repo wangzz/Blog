@@ -35,3 +35,6 @@
 * [《曾国藩》听书笔记](https://github.com/wangzz/Blog/blob/master/Notes/%E3%80%8A%E6%9B%BE%E5%9B%BD%E8%97%A9%E3%80%8B%E5%90%AC%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
 
 * [《图解TCP/IP（第5版）》读书笔记](https://github.com/wangzz/Blog/blob/master/Notes/%E3%80%8A%E5%9B%BE%E8%A7%A3TCP%5CIP%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
+
+* [计算机网络相关概念解释](https://github.com/wangzz/Blog/blob/master/Notes/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5%E8%A7%A3%E9%87%8A.md)
+

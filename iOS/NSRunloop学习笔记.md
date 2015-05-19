@@ -18,7 +18,7 @@
 
 * NSEventTrackingRunLoopMode
 
-用于处理鼠标/手势拖动事件，比如UIScrollView在滚动时就运行在该mode下。
+用于处理鼠标/手势拖动以及其它用户交互事件，比如UIScrollView在滚动时就运行在该mode下。
 
 * NSRunLoopCommonModes
 

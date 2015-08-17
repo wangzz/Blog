@@ -55,8 +55,8 @@ static Foo *gSharedFoo;
     static dispatch_once_t pred = 0;
     static MYClass _sharedObject = nil;
     dispatch_once(&pred, ^{
-            _sharedObject = [[self alloc] init]; // or some other init method
-            });
+        _sharedObject = [[self alloc] init]; // or some other init method
+    });
     return _sharedObject;
 }
 ```

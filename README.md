@@ -20,7 +20,7 @@
 
 * [NSRunloop学习笔记](https://github.com/wangzz/Blog/blob/master/iOS/NSRunloop%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 
-* []()
+* [Objective-C单例模式](https://github.com/wangzz/Blog/blob/master/iOS/Objective-C%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
 
 #### 操作系统
 

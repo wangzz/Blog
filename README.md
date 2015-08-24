@@ -22,6 +22,8 @@
 
 * [Objective-C单例模式](https://github.com/wangzz/Blog/blob/master/iOS/Objective-C%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
 
+* [iOS定位相关问题](https://github.com/wangzz/Blog/blob/master/iOS/iOS%E5%AE%9A%E4%BD%8D%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98.md)
+
 #### 操作系统
 
 * [操作系统基本概念](https://github.com/wangzz/Blog/blob/master/OS/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)

@@ -24,6 +24,8 @@
 
 * [iOS定位相关问题](https://github.com/wangzz/Blog/blob/master/iOS/iOS%E5%AE%9A%E4%BD%8D%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98.md)
 
+* [对Objective-C语言动态性的理解](https://github.com/wangzz/Blog/blob/master/iOS/%E5%AF%B9Objective-C%E8%AF%AD%E8%A8%80%E5%8A%A8%E6%80%81%E6%80%A7%E7%9A%84%E7%90%86%E8%A7%A3.md)
+
 #### 操作系统
 
 * [操作系统基本概念](https://github.com/wangzz/Blog/blob/master/OS/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)

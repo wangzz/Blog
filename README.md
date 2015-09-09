@@ -4,7 +4,7 @@
 
 * [NSError](https://github.com/wangzz/Blog/blob/master/iOS/NSError.md)
 
-* [Autolayout之VFL学习笔记](https://github.com/wangzz/Blog/blob/master/iOS/Autolayout%E4%B9%8BVFL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+* [Autolayout学习笔记](https://github.com/wangzz/Blog/blob/master/iOS/Autolayout%E4%B9%8BVFL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 
 * [iOS7多任务学习笔记](https://github.com/wangzz/Blog/blob/master/iOS/iOS7多任务学习笔记.md)
 

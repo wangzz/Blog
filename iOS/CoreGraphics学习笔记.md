@@ -279,4 +279,9 @@ CG_EXTERN void CGContextEOClip(CGContextRef __nullable c)   // even-odd fill rul
 CG_EXTERN void CGContextClipToMask(CGContextRef __nullable c, CGRect rect, CGImageRef __nullable mask)
 ```
 
-7、context
+7、用户空间 & 设备空间
+
+Quartz 2D绘图模型有两种空间，用户空间(user space)和设备空间(device space)。用户空间表示当前需绘制的文档页(document page),设备空间表示原始分辨率的设备。Quartz 2D使用一个变换矩阵CTM(current transformation matrix)将用户空间映射到设备空间。
+
+设备空间与用户空间的概念，可理解为两张纸，设备空间为一张纸，固定着不动，代表着屏幕；用户空间也是一张纸，实际绘图在用户空间这张纸上画，但最终需要贴到设备空间那张纸上，怎么贴就是CTM描述的问题，我可能将用户空间的纸平移一些距离再贴，也可能放大缩小一些再贴，也可能旋转一定的角度再贴。用户空间的纸对应与绘画过程中的每一page,不同的page可能用不同的用户空间，即每次绘制时的CTM可能都不一样。
+

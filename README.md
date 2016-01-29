@@ -52,6 +52,8 @@
 
 * [利器](https://github.com/wangzz/Blog/blob/master/Other/%E5%88%A9%E5%99%A8.md)
 
+* [利器之iTerms](https://github.com/wangzz/Blog/blob/master/Other/%E5%88%A9%E5%99%A8%E4%B9%8BiTerm2.md)
+
 #### 读书笔记
 
 * [《曾国藩》听书笔记](https://github.com/wangzz/Blog/blob/master/Notes/%E3%80%8A%E6%9B%BE%E5%9B%BD%E8%97%A9%E3%80%8B%E5%90%AC%E4%B9%A6%E7%AC%94%E8%AE%B0.md)

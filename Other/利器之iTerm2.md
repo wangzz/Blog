@@ -1,4 +1,4 @@
-神器iTerm2
+利器之iTerm2
 
 1、窗口分割(Split Panes)：
 * command + d：垂直分割

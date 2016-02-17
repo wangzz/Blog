@@ -14,14 +14,14 @@ Heading和course是有区别的。Heading表示当前设备实际指向和地理
 
 ### 二、定位权限
 
-1、分类
+##### 1、分类
 
 iOS8 之前，只有允许定位和不允许定位两个选择； iOS8 及之后将允许定位又细分成以下两种：
 
 * 使用应用期间（NSLocationWhenInUseUsageDescription）
 * 始终（NSLocationAlwaysUsageDescription）
 
-2、使用
+##### 2、使用
 
 想使用哪种权限（或者二者同时使用），在 Info.plist 中添加对应条目即可。
 
@@ -41,7 +41,7 @@ iOS8 之前，只有允许定位和不允许定位两个选择； iOS8 及之后
     }
 ```
 
-3、定位蓝条
+##### 3、定位蓝条
 
 * iOS8
  

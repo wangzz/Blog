@@ -48,7 +48,7 @@ iOS8 之前，只有允许定位和不允许定位两个选择； iOS8 及之后
 在 iOS8 系统中，将定位权限设置成 NSLocationWhenInUseUsageDescription 时，应用切后台会有蓝条出现。
 
 * iOS9+
-* 
+ 
 在 iOS9 或更新系统中，要想出现定位蓝条，在将定位权限设置成 NSLocationWhenInUseUsageDescription 的同时，还需要调用以下代码：
 
 ```

@@ -59,6 +59,10 @@ if ([_locationManager respondsToSelector:@selector(allowsBackgroundLocationUpdat
 
 而且，如果不调用以上代码，应用切后台后，定位点会停止更新，哪怕并未调用关闭定位的代码。
 
+* 其它
+
+
+
 ##### 4、其它
 
 通常一个应用只需使用 WhenInUse/Always 两种权限中的一个。此时，在 plist 中设置对应的 key，在开始定位的时候调用对应的权限申请方法即可； 

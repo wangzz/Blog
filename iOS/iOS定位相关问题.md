@@ -16,7 +16,7 @@ Heading和course是有区别的。Heading表示当前设备实际指向和地理
 
 ##### 1、分类
 
-iOS8 之前，只有允许定位和不允许定位两个选择； iOS8+ 系统中，允许定位又被细分成以下两种：
+iOS8 之前，只有始终允许定位（NSLocationUsageDescription）和不允许定位两个选择； iOS8+ 系统中，始终允许定位又被细分成以下两种：
 
 * 使用应用期间（NSLocationWhenInUseUsageDescription）
 * 始终（NSLocationAlwaysUsageDescription）

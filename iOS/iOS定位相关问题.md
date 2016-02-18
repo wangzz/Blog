@@ -61,9 +61,9 @@ if ([_locationManager respondsToSelector:@selector(allowsBackgroundLocationUpdat
 
 ##### 4、其它
 
-通常一个应用只需要设置 WhenInUse/Always 两种权限中的一个，这种情况下，只需要在 plist 中设置对应的 key，同时在开始定位的时候调用对应的权限申请方法； 
+通常一个应用只需使用 WhenInUse/Always 两种权限中的一个。此时，在 plist 中设置对应的 key，在开始定位的时候调用对应的权限申请方法即可； 
 
-但也有应用在不同的场景下需要的定位权限，就是说这个应用同时需要 WhenInUse/Always 两种权限，这是就需要在 plist 中同时设置二者的 key，然后在进入不同场景开始定位的时候，分别使用对应的权限申请方法。
+但也有某些应用在不同的场景下需要的定位权限，就是说这个应用同时需要 WhenInUse/Always 两种权限。这时就需要在 plist 中同时设置二者的 key，然后在进入不同场景开始定位的时候，分别调用对应的权限申请方法。
 
 ### 参考文档
 

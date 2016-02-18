@@ -59,15 +59,33 @@ if ([_locationManager respondsToSelector:@selector(allowsBackgroundLocationUpdat
 
 而且，如果不调用以上代码，应用切后台后，定位点会停止更新，哪怕并未调用关闭定位的代码。
 
-* 其它
-
-
-
 ##### 4、其它
 
 通常一个应用只需使用 WhenInUse/Always 两种权限中的一个。此时，在 plist 中设置对应的 key，在开始定位的时候调用对应的权限申请方法即可； 
 
 但也有某些应用在不同的场景下需要的定位权限，就是说这个应用同时需要 WhenInUse/Always 两种权限。这时就需要在 plist 中同时设置二者的 key，然后在进入不同场景开始定位的时候，分别调用对应的权限申请方法。
+
+### 三、iOS定位权限进化史
+
+定位作为 iOS 系统提供的基础功能之一，在每个版本都有改动，下面说说最近几个版本中定位权限的差异。
+
+0x01 iOS7
+
+要想开启定位，需要在 Background Modes 中增加 Location updates 选项。在 `设置 -> 隐私 -> 定位服务` 中，用户可以通过 switch 开关选择是否允许指定应用获取定位权限。
+
+只要从用户那获取了权限，应用无论在前台后台都能定位。
+
+0x02 iOS8
+
+从这个版本开始，将定位权限分成 Always/WhenInUse 两种。实际上这两种权限都能在前后台获得定位更新，区别是 WhenInUse 权限在应用切后台后仍使用定位时，顶部会有一个 Blue Bar 提醒用户；而 Always 权限则不会有任何提醒，因为  Always 指的就是在用户当前并未使用应用的时候，仍能使用定位。
+
+0x03 iOS9
+
+定位权限仍然只有 Always/WhenInUse 两种，区别是 Always 权限应用无论在前台还是后台都能获得定位更新，但在默认情况下 WhenInUse 变成了则变成了真正的 WhenInUse，即这种权限在应用切后台以后就无法获得定位更新。
+
+你以为这样就完了？
+
+前面说过默认情况下 WhenInUse 权限无法在后台获得定位更新，但其实苹果在 CLLocationManager 中还为我们准备了另一个新属性：allowsBackgroundLocationUpdates。该属性默认为 NO，将其设置成 YES 以后，就算应用当前获得的是 WhenInUse 权限，在应用切后台以后也能获得定位更新，不过同时屏幕顶部会有一个 Blue Bar 提醒用户当前应用正在后台使用定位数据
 
 ### 参考文档
 

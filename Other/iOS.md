@@ -45,6 +45,7 @@ __bridge, __bridge_retained, __bridge_transfer
 * 通过符号断点的方式解决 method swizzling 了一个 dealloc 方法导致内存泄露问题
 * 处理定位点不准的问题，通过埋点跟踪确定定位时间戳的取值筛选条件
 * 灵活的活动功能
+* 离线地图下载的优化过程
 
 五、Runtime
 

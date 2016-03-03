@@ -42,6 +42,8 @@ __bridge, __bridge_retained, __bridge_transfer
 
 四、解决过什么难得问题
 
-1、通过符号断点的方式解决 method swizzling 了一个 dealloc 方法导致内存泄露问题
+* 通过符号断点的方式解决 method swizzling 了一个 dealloc 方法导致内存泄露问题
+* 处理定位点不准的问题，通过埋点跟踪确定定位时间戳的取值筛选条件
+* 灵活的活动功能
 
 

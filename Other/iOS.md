@@ -46,4 +46,49 @@ __bridge, __bridge_retained, __bridge_transfer
 * 处理定位点不准的问题，通过埋点跟踪确定定位时间戳的取值筛选条件
 * 灵活的活动功能
 
+五、Runtime
+
+1、定义
+
+是将 C 语言转化为面向对象语言的扩展。
+
+2、 消息传递机制
+
+* 判断处理消息的对象是否为空
+* 到接收消息的对象方法列表里找，找不到的话到父类方法列表里找
+* 还找不到就调用 resolveInstanceMethod 看运行时有没有动态添加方法
+* 仍然不行就调用 forwardInvocation 看其他对象能否处理
+* 如果还不行就抛出异常
+
+3、可以通过类别和联合存储的方式为一个类添加方法和属性
+
+4、可以动态创建类，并为其添加属性、方法
+
+六、Run Loop
+
+1、事件源
+
+* 定时器源
+
+* 输入源
+
+2、Mode
+
+NSDefaultRunLoopMode // 空闲状态
+UITrackingRunLoopMode // 滑动列表时
+NSRunLoopCommonModes // 全部状态
+
+3、线程和 Run Loop
+
+每个线程都对应有一个 Run Loop，主线程是已经启动了，其它线程的需要我们手动启动；
+当 Run Loop 里没有任何需要监测的源事件时，会退出
+
+
+
+
+
+
+
+
+
 

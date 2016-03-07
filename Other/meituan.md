@@ -7,6 +7,7 @@
 * HTTP/HTTPS 的关系，HTTPS 链接建立过程
 * Toll-Free-Bridge，考查 CF 对象和 OC 对象所有权的转换关系，看了一段代码
 * dispatch_asyn 中嵌套 dispatch_syn 导致线程死锁问题，看了一段代码
+* Cocoa 中所有的类基类都是 NSObject 吗？如果不继承 NSObject，哪些功能用不了？
 * 问了对其它语言的了解程度
 * 还有什么简历上没有写的内容吗
 * 问你还有什么问题吗

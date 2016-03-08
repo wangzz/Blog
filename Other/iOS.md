@@ -259,6 +259,7 @@ __block 声明的变量在 MRC 下出现在 block 内时不会 retain 对象，�
 3、autolayout 原理
 AutoLayout的原理是在layoutSubviews中应用Constraints来设置View的frame。换句话说，Constraints只是一个在layoutSubviews时执行的任务队列。
 
+4、探索KVO实现原理
 
 
 

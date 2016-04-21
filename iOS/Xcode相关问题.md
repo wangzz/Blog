@@ -81,6 +81,7 @@ scheme可以有很多个，但是只能有一个处于活跃状态；
 
 scheme可以属于project，也可以属于workspace。
 
+参考链接：[Xcode Concepts](https://developer.apple.com/library/ios/featuredarticles/XcodeConcepts/Concept-Targets.html#//apple_ref/doc/uid/TP40009328-CH4-SW1)
 
 #### 四、ssh远程编译访问证书报`User interaction is not allowed.`错误
 

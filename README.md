@@ -30,6 +30,8 @@
 
 * [UUID 编程指南](https://github.com/wangzz/Blog/blob/master/iOS/The%20Developer%E2%80%99s%20Guide%20to%20Unique%20Identifiers.md)
 
+* [NIB和XIB的区别于关系](https://github.com/wangzz/Blog/blob/master/iOS/IB%E5%92%8CXIB%E7%9A%84%E5%8C%BA%E5%88%AB%E4%BA%8E%E5%85%B3%E7%B3%BB.md)
+
 #### 操作系统
 
 * [操作系统基本概念](https://github.com/wangzz/Blog/blob/master/OS/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)

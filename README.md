@@ -36,6 +36,10 @@
 
 * [操作系统基本概念](https://github.com/wangzz/Blog/blob/master/OS/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)
 
+* [虚拟内存](https://github.com/wangzz/Blog/blob/master/OS/%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98.md)
+
+* [视频分辨率和流量的关系](https://github.com/wangzz/Blog/blob/master/OS/%E8%A7%86%E9%A2%91%E5%88%86%E8%BE%A8%E7%8E%87%E5%92%8C%E6%B5%81%E9%87%8F%E7%9A%84%E5%85%B3%E7%B3%BB.md)
+
 #### 计算机网络
 
 * [计算机网络相关概念解释](https://github.com/wangzz/Blog/blob/master/Notes/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5%E8%A7%A3%E9%87%8A.md)

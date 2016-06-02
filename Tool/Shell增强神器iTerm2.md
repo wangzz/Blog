@@ -1,4 +1,4 @@
-利器之iTerm2
+Shell增强神器iTerm2
 
 1、窗口分割(Split Panes)：
 * command + d：垂直分割

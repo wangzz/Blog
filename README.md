@@ -46,6 +46,14 @@
 
 * [计算机网络相关概念解释](https://github.com/wangzz/Blog/blob/master/Notes/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5%E8%A7%A3%E9%87%8A.md)
 
+#### Tool
+
+* [利器](https://github.com/wangzz/Blog/blob/master/Tool/%E5%88%A9%E5%99%A8.md)
+
+* [Shell增强神器iTerm2.md](https://github.com/wangzz/Blog/blob/master/Tool/Shell%E5%A2%9E%E5%BC%BA%E7%A5%9E%E5%99%A8iTerm2.md)
+
+* [Sublime Text](https://github.com/wangzz/Blog/blob/master/Tool/Sublime%20Text.md)
+
 #### Shell
 
 * [查找命令](https://github.com/wangzz/Blog/blob/master/Shell/%E6%9F%A5%E6%89%BE%E5%91%BD%E4%BB%A4.md)
@@ -57,10 +65,6 @@
 * [字符编码学习笔记](https://github.com/wangzz/Blog/blob/master/Other/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 
 * [算法的时间复杂度和空间复杂度](https://github.com/wangzz/Blog/blob/master/Other/%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%92%8C%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6.md)
-
-* [利器](https://github.com/wangzz/Blog/blob/master/Other/%E5%88%A9%E5%99%A8.md)
-
-* [利器之iTerms](https://github.com/wangzz/Blog/blob/master/Other/%E5%88%A9%E5%99%A8%E4%B9%8BiTerm2.md)
 
 #### 读书笔记
 

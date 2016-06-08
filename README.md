@@ -54,6 +54,8 @@
 
 * [Sublime Text](https://github.com/wangzz/Blog/blob/master/Tool/Sublime%20Text.md)
 
+* [git配置mergetool](https://github.com/wangzz/Blog/blob/master/Tool/VCS/Git/%E9%85%8D%E7%BD%AEgit%20mergetool.md)
+
 #### Shell
 
 * [查找命令](https://github.com/wangzz/Blog/blob/master/Shell/%E6%9F%A5%E6%89%BE%E5%91%BD%E4%BB%A4.md)

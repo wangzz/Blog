@@ -1,3 +1,5 @@
+## git配置mergetool
+
 P4Merge 是一款非常优秀的 git merge 工具，且跨平台兼容。尽管 git 亦有内部实现的 merge 工具，但并不如 P4Merge 易用。我们可以通过配置 .gitconfig 文件来设置 git 使用外部 merge 工具。
 
 首先，下载安装 [P4Merge](https://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools)。MAC 下可以通过：

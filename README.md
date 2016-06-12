@@ -34,6 +34,8 @@
 
 * [数字签名](https://github.com/wangzz/Blog/blob/master/iOS/%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D.md)
 
+* [@weakif和@strongif详解](https://github.com/wangzz/Blog/blob/master/iOS/%40weakif%E5%92%8C%40strongif%E8%AF%A6%E8%A7%A3.md)
+
 #### 操作系统
 
 * [操作系统基本概念](https://github.com/wangzz/Blog/blob/master/OS/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)

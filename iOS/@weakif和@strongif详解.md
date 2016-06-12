@@ -5,23 +5,19 @@
 RAC 里出现一种牛逼轰轰的 block 防止循环引用的方法，使用方式如下：
 
 ```
-* @code
+id foo = [[NSObject alloc] init];
+id bar = [[NSObject alloc] init];
 
-    id foo = [[NSObject alloc] init];
-    id bar = [[NSObject alloc] init];
+@weakify(foo, bar);
 
-    @weakify(foo, bar);
+// this block will not keep 'foo' or 'bar' alive
+BOOL (^matchesFooOrBar)(id) = ^ BOOL (id obj){
+    // but now, upon entry, 'foo' and 'bar' will stay alive until the block has
+    // finished executing
+    @strongify(foo, bar);
 
-    // this block will not keep 'foo' or 'bar' alive
-    BOOL (^matchesFooOrBar)(id) = ^ BOOL (id obj){
-        // but now, upon entry, 'foo' and 'bar' will stay alive until the block has
-        // finished executing
-        @strongify(foo, bar);
-
-        return [foo isEqual:obj] || [bar isEqual:obj];
-    };
-
- * @endcode
+    return [foo isEqual:obj] || [bar isEqual:obj];
+};
 ```
 
 神奇的 @weakif 和 @strongif 宏定义是如何实现的？首先通过 Xcode --> Product --> PerformAction --> Preprocess 将使用这个两个宏的文件预编译以后可以看到它们的最终展开结果如下：
@@ -76,7 +72,7 @@ RAC 里出现一种牛逼轰轰的 block 防止循环引用的方法，使用方
 
 * 第二层定义
 
-metamacro_foreach_cxt
+metamacro_foreach_cxt 定义如下：
 
 ```
 #define metamacro_foreach_cxt(MACRO, SEP, CONTEXT, ...) \
@@ -91,18 +87,9 @@ metamacro_foreach_cxt
 
 其中：
 
-MACRO 				为 	rac_weakify_
-SEP	   				为	空
-CONTEXT			为 	__weak
-.../__VA_ARGS__	为 	self
+MACRO 为 rac_weakify_；SEP 为空；CONTEXT 为 __weak；.../__VA_ARGS__ 为 self。
 
-第二层定义分解后就成了这个样子：
-
-```
-#define metamacro_foreach_cxt1(rac_weakify_,, __weak, self)
-```
-
-目前 DEBUG 下宏定义变成了：
+目前宏定义分解后就成了这个样子：
 
 ```
 #define weakify(...) \
@@ -123,7 +110,7 @@ metamacro_foreach_cxt1 的定义如下：
 rac_weakify_(0, __weak, self)
 ```
 
-目前 DEBUG 下宏定义变成了：
+即 DEBUG 下宏定义变成了：
 
 ```
 #define weakify(...) \
@@ -140,10 +127,14 @@ rac_weakify_ 定义如下：
     CONTEXT __typeof__(VAR) metamacro_concat(VAR, _weak_) = (VAR);
 ```
 
-由于 metamacro_concat 用于连接参数，因此最终宏定义就成了：
+其中 metamacro_concat 用于连接参数，因此最终宏定义就成了：
 
 ```
 #define weakify(...) \
     autoreleasepool {} \
     __weak __typeof__(self) self_weak_ = (self);
 ```
+
+三、参考文档
+
+* [Reactive Cocoa中@weakify和@strongify实现分析](http://blog.csdn.net/taishanduba/article/details/47363147)

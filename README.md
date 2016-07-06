@@ -36,6 +36,12 @@
 
 * [@weakif和@strongif详解](https://github.com/wangzz/Blog/blob/master/iOS/%40weakif%E5%92%8C%40strongif%E8%AF%A6%E8%A7%A3.md)
 
+#### VCS
+
+* [git配置mergetool](https://github.com/wangzz/Blog/blob/master/VCS/Git/%E9%85%8D%E7%BD%AEgit%20mergetool.md)
+
+* [配置gitconfig文件](https://github.com/wangzz/Blog/blob/master/VCS/Git/%E9%85%8D%E7%BD%AEgitconfig%E6%96%87%E4%BB%B6.md)
+
 #### 操作系统
 
 * [操作系统基本概念](https://github.com/wangzz/Blog/blob/master/OS/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)
@@ -56,7 +62,6 @@
 
 * [Sublime Text](https://github.com/wangzz/Blog/blob/master/Tool/Sublime%20Text.md)
 
-* [git配置mergetool](https://github.com/wangzz/Blog/blob/master/Tool/VCS/Git/%E9%85%8D%E7%BD%AEgit%20mergetool.md)
 
 #### Shell
 

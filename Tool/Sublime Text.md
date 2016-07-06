@@ -30,3 +30,23 @@ Tools –> Build System –> new Build System…
 直接保存为名称 Javascript.sublime-build 即可。
 
 需要注意的是，一定要写对自己电脑上 node 的安装路径（通过 homebrew 安装成功后会打印路径），比如我的是： /usr/local/Cellar/node/0.10.35_1
+
+#### 快捷键
+
+* Jump To Definition
+
+先打开：
+
+```
+Sublime Text -> Preferences -> Key Bindings - User
+```
+
+添加：
+
+```
+[
+    { "keys": ["shift+command+m"], "command": "goto_definition" }
+]
+```
+
+即可使用。

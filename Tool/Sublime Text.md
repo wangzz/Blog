@@ -1,6 +1,8 @@
 ## Sublime Text
 
-#### 1、构建 Javascript 编译器
+#### 一、构建编译器
+
+* Javascript 编译器
 
 选择：
 Tools –> Build System –> new Build System… 
@@ -31,7 +33,7 @@ Tools –> Build System –> new Build System…
 
 需要注意的是，一定要写对自己电脑上 node 的安装路径（通过 homebrew 安装成功后会打印路径），比如我的是： /usr/local/Cellar/node/0.10.35_1
 
-#### 快捷键
+#### 二、快捷键
 
 * Jump To Definition
 
@@ -50,3 +52,12 @@ Sublime Text -> Preferences -> Key Bindings - User
 ```
 
 即可使用。
+
+
+#### 三、常用插件
+
+* Javascript 相关
+
+JavaScript Completions
+
+

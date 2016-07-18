@@ -36,6 +36,9 @@
 
 * [@weakif和@strongif详解](https://github.com/wangzz/Blog/blob/master/iOS/%40weakif%E5%92%8C%40strongif%E8%AF%A6%E8%A7%A3.md)
 
+* [常用脚本](https://github.com/wangzz/Blog/blob/master/iOS/%E5%B8%B8%E7%94%A8%E8%84%9A%E6%9C%AC.md)
+
+
 #### VCS
 
 * [git配置mergetool](https://github.com/wangzz/Blog/blob/master/VCS/Git/%E9%85%8D%E7%BD%AEgit%20mergetool.md)

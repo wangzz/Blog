@@ -5,6 +5,7 @@ category: Security
 tags: [HTTPS, iOS]
 ---
 
+http://www.cnblogs.com/machao/p/5704201.html?utm_source=tuicool&utm_medium=referral
 
 如何打造一个安全的App？这是每一个移动开发者必须面对的问题。在移动App开发领域，开发工程师对于安全方面的考虑普遍比较欠缺，而由于iOS平台的封闭性，遭遇到的安全问题相比于Android来说要少得多，这就导致了许多iOS开发人员对于安全性方面没有太多的深入，但对于一个合格的软件开发者来说，安全知识是必备知识之一。
 

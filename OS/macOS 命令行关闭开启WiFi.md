@@ -20,7 +20,7 @@ Ethernet Address:dd:dd:dd:dd:dd:dd
 
 * 创建命令文件
 
-在目录 `/usr/local/bin` 下新建两个文件 `wifi0` 和 `wifi1`，分别写上 WiFi 开启和关闭的命令：
+在目录 `/usr/local/bin` 下新建两个文件 `wifi1` 和 `wifi0`，分别写上 WiFi 开启和关闭的命令：
 
 ```
 networksetup -setairportpower en0 on  // 开启
@@ -32,7 +32,8 @@ networksetup -setairportpower en0 off // 关闭
 输入以下命令更改文件权限：
 
 ```
-sudo chmod  777 wifi0
 sudo chmod  777 wifi1
+sudo chmod  777 wifi0
 ```
-至此，就可以愉快的在命令行开启和关闭 WiFi 了！
+
+至此，就可以愉快地在命令行通过 `wifi1` 和 `wifi0` 命令开启和关闭 WiFi 了！

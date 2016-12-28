@@ -8,13 +8,14 @@ CGRect rect = [self.view convertRect:textField.frame fromView:textField.supervie
 CGRect rect = [textField.superview convertRect:textField.frame toView:self.view];
 ```
 ## 不同view继承体系之间点转换
-把一个点从一个坐标系转换到接收者的坐标系
+
+#### 把一个点从一个坐标系转换到接收者的坐标系
 
 ``` objective-c
 - (CGPoint)convertPoint:(CGPoint)point fromView:(UIView *)view
 ```
 
-####参数
+##### 参数
 
 * point
 
@@ -23,13 +24,14 @@ CGRect rect = [textField.superview convertRect:textField.frame toView:self.view]
 * view
 
 一个视图包含了点和他自身坐标系。如果是图是nil，那么这个方法将尝试转换基于窗口的坐标系。否则视图和那个接收者必须属于同一个UIWindow对象。
-- 转换一个点从接收者坐标系到给定的视图坐标系
+
+#### 转换一个点从接收者坐标系到给定的视图坐标系
 
 ``` objective-c
 - (CGPoint)convertPoint:(CGPoint)point toView:(UIView *)view
 ```
 
-#### 参数
+##### 参数
 
 * point
 

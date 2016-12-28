@@ -10,6 +10,7 @@
 		96064F2C1E0007F0006A5AB1 /* FGSqStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 96064F2A1E0007F0006A5AB1 /* FGSqStack.c */; };
 		966C1E911DF82CE10069F945 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 966C1E901DF82CE10069F945 /* main.c */; };
 		966C1E9C1DF82D870069F945 /* FGLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 966C1E9A1DF82D870069F945 /* FGLinkList.c */; };
+		96E1BC8A1E02A3C5009DE3A3 /* FGRPN.c in Sources */ = {isa = PBXBuildFile; fileRef = 96E1BC881E02A3C5009DE3A3 /* FGRPN.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		966C1E9A1DF82D870069F945 /* FGLinkList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FGLinkList.c; sourceTree = "<group>"; };
 		966C1E9B1DF82D870069F945 /* FGLinkList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLinkList.h; sourceTree = "<group>"; };
 		966C1E9D1DF82E610069F945 /* CommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		96E1BC881E02A3C5009DE3A3 /* FGRPN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FGRPN.c; sourceTree = "<group>"; };
+		96E1BC891E02A3C5009DE3A3 /* FGRPN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGRPN.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				966C1E9A1DF82D870069F945 /* FGLinkList.c */,
 				96064F2B1E0007F0006A5AB1 /* FGSqStack.h */,
 				96064F2A1E0007F0006A5AB1 /* FGSqStack.c */,
+				96E1BC891E02A3C5009DE3A3 /* FGRPN.h */,
+				96E1BC881E02A3C5009DE3A3 /* FGRPN.c */,
 			);
 			path = ListDemo;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96064F2C1E0007F0006A5AB1 /* FGSqStack.c in Sources */,
+				96E1BC8A1E02A3C5009DE3A3 /* FGRPN.c in Sources */,
 				966C1E9C1DF82D870069F945 /* FGLinkList.c in Sources */,
 				966C1E911DF82CE10069F945 /* main.c in Sources */,
 			);

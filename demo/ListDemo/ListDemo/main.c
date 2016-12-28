@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include "FGSqStack.h"
+#include "FGRPN.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -21,6 +22,12 @@ int main(int argc, const char * argv[]) {
     ElemType e;
     GetTop(&S, &e);
     printf("%d \n",e);
+    
+    char str[] = "9+(3-1)*3+10/2";
+    NifixExpression2PostfixExpression(str, NULL);
+    
+    
+    
     
     return 0;
 }

@@ -15,7 +15,7 @@
 #define FALSE   0
 typedef int Status;
 
-typedef int ElemType;
+typedef char ElemType;
 
 #define MAXSIZE (10)
 

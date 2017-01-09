@@ -1,6 +1,6 @@
 ## homebrew
 
-#### 关于homebrew
+#### 关于
 
 * 安装
 
@@ -25,8 +25,6 @@ rm -r Library/Homebrew Library/Aliases Library/Formula Library/Contributions
 rm -rf .git
 rm -rf ~/Library/Caches/Homebrew
 ```
-
-* homebrew[官网](http://brew.sh/)
 
 
 #### 使用
@@ -62,4 +60,8 @@ brew list
 ```
 sudo chown -R [username] /usr/local
 ```
+
+#### 官网
+
+* [homebrew官网](http://brew.sh/)
 

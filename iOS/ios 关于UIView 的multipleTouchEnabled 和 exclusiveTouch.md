@@ -1,3 +1,6 @@
+原文链接：
+http://www.cnblogs.com/breezemist/p/4422319.html
+
 做项目时发现，在一个界面上的2个button竟然可以同时点击，依次push进去了2个 controller！我就产生了疑问，一个view的multipleTouchEnabled属性默认是false啊，那怎么会可以同时点击这个view上的2个子view呢？原来是对multipleTouchEnabled属性理解不对！下面看看对这个属性的理解。
 
 multipleTouchEnabled的官方解释如下：

@@ -46,7 +46,7 @@ sudo mv HackedBuildSystem.xcspec `xcode-select -print-path`/Platforms/iPhoneSimu
 
 在Compiler for C/C++/Objective-C中选择Clang LLVM Trunk：
 
-![](http://o79rgqboc.bkt.clouddn.com/xcode_clangplugin_compiler.png)
+![](https://github.com/wangzz/Blog/blob/master/image/Clang/xcode_clangplugin_compiler.png)
 
 ##### 修改工程配置
 
@@ -63,7 +63,7 @@ sudo mv HackedBuildSystem.xcspec `xcode-select -print-path`/Platforms/iPhoneSimu
 "插件名称"
 ```
 
-![](http://o79rgqboc.bkt.clouddn.com/xcode_clangplugin_flags.png)
+![](https://github.com/wangzz/Blog/blob/master/image/Clang/xcode_clangplugin_flags.png)
 
 顺利的话到这里工程就能运行起来了。
 

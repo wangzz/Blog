@@ -13,9 +13,7 @@
 * [为何百兆静态库能打进数兆的可执行文件](https://www.jianshu.com/p/03aac1412b1c?utm_campaign=maleskine&utm_content=note&utm_medium=reader_share&utm_source=weibo)
 
 
-
-
-
+#### [研读《程序员的自我修养—链接、装载与库》](https://www.jianshu.com/p/147e70f0a74c)
 
 
 

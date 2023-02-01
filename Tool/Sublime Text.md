@@ -60,4 +60,9 @@ Sublime Text -> Preferences -> Key Bindings - User
 
 JavaScript Completions
 
+### 四、列编辑模式
+
+* 先选中要编辑的数据，可以通过 command + A 选中全部数据
+* 通过 command + shift + L 进入列编辑模式，进入列编辑模式后可批量修改每一列
+ 
 
